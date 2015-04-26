@@ -19,7 +19,7 @@
 
 #Detailed Fields/Columns:#
 
-|Field/Column  | mean() related Fields                                    ||
+|Field/Column  | mean() related Fields ||
 |:-------------------------- |:-------------------------- |:-------------------------- |
 |tBodyAcc-mean()-X           |tBodyAcc-mean()-Y           |tBodyAcc-mean()-Z           |
 |tGravityAcc-mean()-X        |tGravityAcc-mean()-Y        |tGravityAcc-mean()-Z       | 
@@ -33,7 +33,7 @@
 |fBodyGyro-mean()-Y          |fBodyGyro-mean()-Z          |fBodyAccMag-mean()          |
 |fBodyBodyAccJerkMag-mean()  |fBodyBodyGyroMag-mean()     |fBodyBodyGyroJerkMag-mean() |
 
-|Field/Column  | std() related Fields                                    |
+|Field/Column  | std() related Fields ||
 |:-------------------------- |:-------------------------- |:-------------------------- |
 |tBodyAcc-std()-X            |tBodyAcc-std()-Y            |tBodyAcc-std()-Z            |
 |tGravityAcc-std()-X         |tGravityAcc-std()-Y         |tGravityAcc-std()-Z         |
