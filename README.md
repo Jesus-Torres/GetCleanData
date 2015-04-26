@@ -1,9 +1,7 @@
----
-output: html_document
----
+
 # Applied Logic for Getting and Cleaning data Course Project
 
-After reading instructions/ requirements and play **a lot ** with all files/data set provided, here is the requested description for applied logic and code in run_analysis.R script:
+After reading instructions/ requirements and play **a lot** with all files/data set provided, here is the requested description for applied logic and code in run_analysis.R script:
 This is a description of all steps to acomplish requested results for Getting and Cleaning data Course from Coursera.
 
 Sequence of action:
