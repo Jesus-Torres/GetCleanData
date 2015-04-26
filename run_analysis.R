@@ -30,9 +30,6 @@ main_table_train <- cbind(y_train,subject_train,x_train)
 # Then merging/row binding both result tables
 main_table <- rbind(main_table_test,main_table_train)
 
-# Reading activity labels
-activity_table <- read.table("UCI HAR Dataset/activity_labels.txt",header=F,sep="",dec=".")
-
 # Naming activity label columns (to be used later)
 # Important: first Column name as same as main_table to 
 # make possible a Join/Merge
