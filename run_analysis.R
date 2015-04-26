@@ -24,11 +24,16 @@ names(y_train) <- c("activity")
 names(y_test) <- c("activity")
 
 # Merging/column binding all test and train data, 
-main_table_test <- cbind(y_test,subject_test,x_test)
-main_table_train <- cbind(y_train,subject_train,x_train)
+main_table_test <-  cbind(y_test,
+                          subject_test,
+                          x_test)
+main_table_train <- cbind(y_train,
+                          subject_train,
+                          x_train)
 
 # Then merging/row binding both result tables
-main_table <- rbind(main_table_test,main_table_train)
+main_table <- rbind(main_table_test,
+                    main_table_train)
 
 # Naming activity label columns (to be used later)
 # Important: first Column name as same as main_table to 
@@ -41,7 +46,9 @@ main <- merge(activity_table,main_table)
 # Tidying main_table: getting only needed columns:
 # mean and std columns coming from grepping "mean()" and "std()" from 
 # column names
-tidy_main <- cbind(main[c("subject","activity")],main[grep("mean()",names(main),fixed=T)],main[grep("std()",names(main),fixed=T)]) 
+tidy_main <- cbind(main[c("subject","activity")],
+                   main[grep("mean()",names(main),fixed=T)],
+                   main[grep("std()",names(main),fixed=T)]) 
 
 # Calculating mean values for all mean and std columns by subject and activity
 attach(tidy_main)

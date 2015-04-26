@@ -13,7 +13,7 @@ Sequence of action:
  * Naming subject and activity Columns from additional files
     
 2. Merging all test and train data with correspondent activities and subjects
- * Merging/column binding all test and train data, 
+ * Merging/column binding all test and train data
  * Then merging/row binding both result tables
 
 3. Applying Activity labels
