@@ -8,7 +8,7 @@
 |Produced by: |run_analysis.R      |
 
 
-#Fields/Columns:#
+##Fields/Columns:##
 
 |Field/Column    |Description                   |
 |:-------------- |:-----------------------------|
@@ -17,9 +17,9 @@
 |All Columns which names contains "mean()" | mean of "mean()" original columns from UCI HAR Dataset/test/X_test.txt and UCI HAR Dataset/train/X_train.txt named by features.txt|
 |All Columns which names contains "std()"  | mean of "std()" original columns from UCI HAR Dataset/test/X_test.txt and UCI HAR Dataset/train/X_train.txt named by features.txt|
 
-#Detailed Fields/Columns:#
+##Detailed Fields/Columns:##
 
-|Field/Column  | mean() related Fields ||
+|###Fields/Columns with mean() related Fields### |||
 |:-------------------------- |:-------------------------- |:-------------------------- |
 |tBodyAcc-mean()-X           |tBodyAcc-mean()-Y           |tBodyAcc-mean()-Z           |
 |tGravityAcc-mean()-X        |tGravityAcc-mean()-Y        |tGravityAcc-mean()-Z       | 
@@ -33,7 +33,7 @@
 |fBodyGyro-mean()-Y          |fBodyGyro-mean()-Z          |fBodyAccMag-mean()          |
 |fBodyBodyAccJerkMag-mean()  |fBodyBodyGyroMag-mean()     |fBodyBodyGyroJerkMag-mean() |
 
-|Field/Column  | std() related Fields ||
+|###Fields/Columns with std() related Fields### |||
 |:-------------------------- |:-------------------------- |:-------------------------- |
 |tBodyAcc-std()-X            |tBodyAcc-std()-Y            |tBodyAcc-std()-Z            |
 |tGravityAcc-std()-X         |tGravityAcc-std()-Y         |tGravityAcc-std()-Z         |
@@ -47,5 +47,5 @@
 |fBodyGyro-std()-Y           |fBodyGyro-std()-Z           |fBodyAccMag-std()           |
 |fBodyBodyAccJerkMag-std()   |fBodyBodyGyroMag-std()      |fBodyBodyGyroJerkMag-std() |
  
- More information and detailed descriptions for data/fields/columns is included in UCI HAR Dataset.
+ **More information and detailed descriptions for data/fields/columns is included in UCI HAR Dataset.**
  
