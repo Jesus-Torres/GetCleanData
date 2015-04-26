@@ -1,4 +1,4 @@
-#Code Book for analysis_result.txt
+#Code Book for analysis_result.txt#
 
 ---
 File: "analysis_result.txt"
@@ -7,7 +7,7 @@ Delimiter: "space (' ')"
 Produced by: run_analysis.R
 ---
 
-#Fields/Columns:
+#Fields/Columns:#
 ---
 activity_name: activity labels
 subject: subjects number ID
@@ -15,7 +15,7 @@ All Columns which names contains "mean()": mean of "mean()" original columns fro
 All Columns which names contains "std()": mean of "std()" original columns from UCI HAR Dataset/test/X_test.txt and UCI HAR Dataset/train/X_train.txt named by features.txt
 ---
 
-#Detailed Fields/Columns:
+#Detailed Fields/Columns:#
 
 tBodyAcc-mean()-X          
 tBodyAcc-mean()-Y           tBodyAcc-mean()-Z           tGravityAcc-mean()-X       
