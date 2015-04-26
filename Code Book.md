@@ -19,7 +19,8 @@
 
 #Detailed Fields/Columns:#
 
-|Field/Column  | mean() related Fields                                    |
+|Field/Column  | mean() related Fields                                    ||
+|:-------------------------- |:-------------------------- |:-------------------------- |
 |tBodyAcc-mean()-X           |tBodyAcc-mean()-Y           |tBodyAcc-mean()-Z           |
 |tGravityAcc-mean()-X        |tGravityAcc-mean()-Y        |tGravityAcc-mean()-Z       | 
 |tBodyAccJerk-mean()-X       |tBodyAccJerk-mean()-Y       |tBodyAccJerk-mean()-Z|
@@ -33,6 +34,7 @@
 |fBodyBodyAccJerkMag-mean()  |fBodyBodyGyroMag-mean()     |fBodyBodyGyroJerkMag-mean() |
 
 |Field/Column  | std() related Fields                                    |
+|:-------------------------- |:-------------------------- |:-------------------------- |
 |tBodyAcc-std()-X            |tBodyAcc-std()-Y            |tBodyAcc-std()-Z            |
 |tGravityAcc-std()-X         |tGravityAcc-std()-Y         |tGravityAcc-std()-Z         |
 |tBodyAccJerk-std()-X        |tBodyAccJerk-std()-Y        |tBodyAccJerk-std()-Z        |
@@ -44,4 +46,6 @@
 |fBodyAccJerk-std()-Y        |fBodyAccJerk-std()-Z        |fBodyGyro-std()-X           |
 |fBodyGyro-std()-Y           |fBodyGyro-std()-Z           |fBodyAccMag-std()           |
 |fBodyBodyAccJerkMag-std()   |fBodyBodyGyroMag-std()      |fBodyBodyGyroJerkMag-std() |
+ 
+ More information and detailed descriptions for data/fields/columns is included in UCI HAR Dataset.
  
