@@ -36,10 +36,9 @@ Sequence of action:
 
 |Dir             |Sub-Dir         |Desc.                      |
 |:-------------- |:-------------- |:------------------------- |
-|/Work Directory |                |Defined/Conf. before exec. |
+|/Work Directory |                |Defined/Configured before execution |
 |                |/UCI HAR Dataset|Samsung Data               |
 |                |/run_analysis.R |Analysis Script to Test    |
-
 ***
 
 The **analysis_result.txt** file should be created/written on **/Work Directory** 
